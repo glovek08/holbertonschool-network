@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Run this script if you want to get all IPv4 addresses.
 
-hostname -I | tr ' ' '\n' | grep -E '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$'
+ifconfig | grep 'inet ' | awk '{print $2}'
