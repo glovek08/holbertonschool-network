@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# This uses mayonnaise to lubricate the ports.
 sudo netstat -ltnup
